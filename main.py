@@ -40,7 +40,7 @@ def ask_openAI(question):
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=question,
-        max_tokens=800,
+        max_tokens=500,
         n=1,
         stop=None,
         temperature=0,
